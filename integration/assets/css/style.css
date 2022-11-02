@@ -1,0 +1,49 @@
+/* Google Font */
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+
+header {
+    display: flex; 
+    padding : 5vh; 
+    border-width: 3cm;;
+    border-color: black;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#header_logo img {
+    width: 10vh;
+    height: 10vh;
+}
+#header_title {
+    font-size: 300%;
+    display: flex;
+    align-items: center;
+}
+main {
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+}
+
+.main_left-side {
+    width: 20%;
+    background-color: aqua;
+}
+.main_center {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    background-color: yellow; 
+}
+.main_right-side {
+    width: 20%;
+    background-color: brown;
+}
+footer {
+    display: flex; 
+    align-items: flex-end;
+}
+  
+
